@@ -1,0 +1,17 @@
+{
+    "require": {
+        "illuminate/support": "5.6",
+      "aura/sqlquery": "^2.7",
+      "nikic/fast-route": "^1.2",
+      "php-di/php-di": "^5.4",
+      "league/plates": "3.*",
+      "jasongrimes/paginator": "~1.0"
+    },
+  
+    "autoload": {
+      "psr-4": {
+        "App\\" : "app/"
+      }
+    }
+  }
+  
