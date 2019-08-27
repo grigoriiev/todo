@@ -1,8 +1,7 @@
 <?php
 namespace App\Controllers;
 
-use Respect\Validation\Exceptions\ValidationException;
-use Respect\Validation\Validator as v;
+
 
 class HomeController extends Controller
 {

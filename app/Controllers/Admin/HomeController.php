@@ -1,7 +1,6 @@
 <?php
 namespace App\Controllers\Admin;
-use Respect\Validation\Exceptions\ValidationException;
-use Respect\Validation\Validator as v;
+
 use App\Controllers\Controller as MainController;
 
 class HomeController extends MainController
