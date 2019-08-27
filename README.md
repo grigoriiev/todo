@@ -1,1 +1,1 @@
-# todo git init git add README.md git commit -m first commit git remote add origin https://github.com/grigoriiev/todo.git git push -u origin master
+# todo 
