@@ -7,7 +7,7 @@ use JasonGrimes\Paginator;
 function view($path, $parameters = [])
 {
     global $container;
-    $plates = $container->get('plates');
+    $plates = $container->get(\League\Plates\Engine::class);
     echo $plates->render($path, $parameters);
 }
 

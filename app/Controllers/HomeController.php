@@ -55,7 +55,7 @@ public function logout (){
     {
        
        echo $this->view->render('create');
-	   
+	 
     }
 	
 	
