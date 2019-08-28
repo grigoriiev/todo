@@ -10,7 +10,9 @@ class HomeController extends MainController
 
     public function index(){
 	
-	
+	if(!$_SESSION["user"]){
+		exit("Вы не админ");
+	}
 
 	
        $page = isset($_GET['page']) ? $_GET['page'] : 1;
